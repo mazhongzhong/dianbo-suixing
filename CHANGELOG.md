@@ -4,6 +4,7 @@
 
 - 应用更名为“英伦随听”，英文名为“UK Radio Companion”。
 - 使用稳定的 Android API 36 构建环境，方便公开仓库和 CI 重现构建。
+- 将开源许可证由 MIT License 更改为 Apache License 2.0。
 
 ## 0.4.0 - 2026-08-29
 
