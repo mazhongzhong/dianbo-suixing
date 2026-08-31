@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">电波随行</string>
-    <string name="app_tagline">简洁的全球广播播放器</string>
-    <string name="station_art_description">电波随行应用图标</string>
+    <string name="app_name">英伦随听</string>
+    <string name="app_tagline">海外也能听的英国广播</string>
+    <string name="station_art_description">英伦随听应用图标</string>
     <string name="playback_playing">播放中</string>
     <string name="playback_paused">已暂停</string>
     <string name="playback_ready">待播放</string>
