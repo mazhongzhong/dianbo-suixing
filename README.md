@@ -29,7 +29,7 @@
 需要：
 
 - JDK 17
-- Android SDK Platform 37
+- Android SDK Platform 36
 - Android SDK Build-Tools 36.0.0
 
 项目包含 Gradle Wrapper。在 Android Studio 中打开本目录，或在命令行运行：
