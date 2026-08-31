@@ -1,27 +1,27 @@
-# 参与贡献
+# Contributing
 
-感谢你参与电波随行。
+Thank you for contributing to UK Radio Companion.
 
-## 提交修改
+## Submitting changes
 
-1. Fork 仓库并从默认分支创建功能分支。
-2. 保持修改范围清晰，避免把构建产物、密钥、账号信息或本地 SDK 路径提交到仓库。
-3. 在提交前运行：
+1. Fork the repository and create a feature branch from the default branch.
+2. Keep each change focused. Keep build artifacts, signing keys, credentials, account details, and local SDK paths out of commits.
+3. Run the following checks before submitting:
 
    ```bash
    ./gradlew test lintDebug assembleDebug
    ```
 
-4. 在 Pull Request 中说明修改内容、原因、验证方法和可能的兼容性影响。界面修改请附截图。
+4. In the pull request, explain what changed, why it changed, how it was verified, and any compatibility considerations. Include screenshots for interface changes.
 
-## 代码与内容要求
+## Code and content guidelines
 
-- 优先沿用现有 Kotlin 和 Android 资源结构。
-- 为解析、时间处理和回退行为补充有意义的测试。
-- 不加入绕过付费墙、数字版权管理、地区限制或访问控制的功能。
-- 新增频道前，请确认接口公开方式、分发许可和名称使用方式；不要提交未经许可的图标、节目封面或音频文件。
-- 不要在仓库中提交签名密钥或真实凭据。
+- Follow the existing Kotlin and Android resource structure.
+- Add meaningful tests for stream parsing, time handling, and fallback behavior.
+- Review service terms, distribution rights, and naming requirements before adding a station.
+- Use artwork, programme images, audio, and other media only when their licenses permit redistribution.
+- Keep signing keys and real credentials out of the repository.
 
-## 报告问题
+## Reporting issues
 
-普通缺陷可以通过 GitHub Issues 报告，并附上 Android 版本、频道、复现步骤和必要日志。请先删除日志中的账号、IP 地址或其他敏感信息。
+Use GitHub Issues for reproducible defects. Include the Android version, app version, affected station, reproduction steps, and relevant logs. Remove account details, IP addresses, tokens, and other sensitive information from logs before posting.

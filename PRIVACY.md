@@ -1,21 +1,15 @@
-# 隐私说明
+# Privacy
 
-最后更新：2026-08-31
+Last updated: August 31, 2026
 
-## 本项目不收集的数据
+## Data stored on the device
 
-电波随行不要求注册账号，不申请定位权限，不包含广告或分析 SDK，也不会把使用记录发送给项目维护者控制的服务器。
+The app stores the selected station and the keep-screen-on preference in local app storage. Android removes this data when the app is uninstalled or its storage is cleared.
 
-## 保存在设备上的设置
+## Network requests
 
-应用只在设备本地保存用户选择的频道和“播放时保持屏幕常亮”设置。卸载应用或清除应用数据即可删除这些设置。
+Live streams and programme schedules are retrieved directly from BBC services and their content delivery networks. These services may receive connection information such as the IP address, request time, User-Agent, and network diagnostics, and process it under their own terms and privacy policies.
 
-## 第三方网络请求
+## Policy updates
 
-为了获取直播和节目表，应用会直接连接 BBC 及其内容分发网络。与访问普通网页类似，这些第三方可能接收到 IP 地址、请求时间、User-Agent 和网络诊断信息，并按照各自的条款及隐私政策处理。
-
-本项目维护者无法控制第三方服务，也不代理这些请求。频道和节目是否可访问取决于用户所在地区、网络以及内容权利限制。
-
-## 修改
-
-如果未来版本加入分析、账号、云同步或其他数据处理功能，本说明和应用内披露应在发布前同步更新。
+This document will be updated before a release introduces new data handling practices.
