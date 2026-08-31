@@ -1,0 +1,30 @@
+name: 缺陷报告
+description: 报告可以稳定复现的问题
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: 问题描述
+      description: 请清楚描述实际表现和预期表现。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 打开应用
+        2. 选择频道
+        3. 点击播放
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Android 与应用版本
+      placeholder: Android 15，电波随行 0.4.0
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 补充信息
+      description: 可以附截图或已删除敏感信息的日志。
