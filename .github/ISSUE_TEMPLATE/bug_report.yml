@@ -1,30 +1,30 @@
-name: 缺陷报告
-description: 报告可以稳定复现的问题
+name: Bug report
+description: Report a reproducible problem
 title: "[Bug] "
 labels: [bug]
 body:
   - type: textarea
     attributes:
-      label: 问题描述
-      description: 请清楚描述实际表现和预期表现。
+      label: Problem
+      description: Describe the actual and expected behavior.
     validations:
       required: true
   - type: textarea
     attributes:
-      label: 复现步骤
+      label: Steps to reproduce
       placeholder: |
-        1. 打开应用
-        2. 选择频道
-        3. 点击播放
+        1. Open the app
+        2. Select a station
+        3. Tap Play
     validations:
       required: true
   - type: input
     attributes:
-      label: Android 与应用版本
-      placeholder: Android 15，英伦随听 0.5.0
+      label: Android and app versions
+      placeholder: Android 15, UK Radio Companion 0.5.0
     validations:
       required: true
   - type: textarea
     attributes:
-      label: 补充信息
-      description: 可以附截图或已删除敏感信息的日志。
+      label: Additional context
+      description: Add screenshots or logs with sensitive information removed.
