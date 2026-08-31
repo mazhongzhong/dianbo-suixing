@@ -1,6 +1,6 @@
-# 电波随行
+# 英伦随听 / UK Radio Companion
 
-一个简洁的 Android 网络广播播放器。目前支持 BBC World Service、Radio 1、Radio 2、Radio 3、Radio 4、Radio 5 Live 和 Radio 6 Music。
+一个面向海外收听场景的简洁 Android 英国广播播放器。目前支持 BBC World Service、Radio 1、Radio 2、Radio 3、Radio 4、Radio 5 Live 和 Radio 6 Music。
 
 > 本项目是独立的非官方开源项目，与 BBC 没有隶属、授权或背书关系。
 
