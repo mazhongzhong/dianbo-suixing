@@ -4,16 +4,12 @@ plugins {
 
 android {
     namespace = "com.example.worldservicelive"
-    compileSdk {
-        version = release(37) {
-            minorApiLevel = 0
-        }
-    }
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.worldservicelive"
         minSdk = 23
-        targetSdk = 37
+        targetSdk = 36
         versionCode = 4
         versionName = "0.4.0"
 
