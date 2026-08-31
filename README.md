@@ -23,6 +23,15 @@ A lightweight Android player for BBC radio, designed for listeners outside the U
 
 The player resolves current stream endpoints dynamically and uses fallback endpoints when needed.
 
+## Download and install
+
+1. Open the [latest release](https://github.com/mazhongzhong/uk-radio-companion/releases/latest).
+2. Expand **Assets** and download the APK file.
+3. Open the downloaded APK on the Android device.
+4. If Android prompts for permission, allow the browser or file manager to install apps from that source, then tap **Install**.
+
+The current APK is debug-signed and intended for direct installation and testing. Keep the same signing key for future APK updates so Android can install them over an existing version.
+
 ## Build
 
 Requirements:
