@@ -48,5 +48,5 @@ dependencies {
     implementation("androidx.media3:media3-session:$media3Version")
 
     testImplementation("junit:junit:4.13.2")
-    testImplementation("org.json:json:20250517")
+    testImplementation("org.json:json:20260814")
 }
