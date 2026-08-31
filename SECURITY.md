@@ -1,16 +1,16 @@
-# 安全政策
+# Security Policy
 
-## 支持范围
+## Supported versions
 
-安全修复优先应用于默认分支的最新版本。
+Security fixes are applied to the latest version on the default branch.
 
-## 报告安全问题
+## Reporting a vulnerability
 
-请不要为尚未修复的安全漏洞创建公开 Issue。优先使用 GitHub 仓库的 **Security → Report a vulnerability** 私下提交报告，并提供：
+Use the repository's **Security → Report a vulnerability** option to submit a private report. Include:
 
-- 受影响版本和 Android 版本；
-- 可重复的操作步骤；
-- 实际影响；
-- 建议修复方式（如有）。
+- The affected app and Android versions
+- Reproduction steps
+- The practical impact
+- A suggested fix, if available
 
-请勿在报告中包含不必要的个人数据、访问令牌或第三方账号凭据。
+Keep personal data, access tokens, and third-party account credentials out of the report unless they are essential to reproducing the issue. If sensitive material is essential, describe it first and wait for secure handling instructions.

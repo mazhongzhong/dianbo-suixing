@@ -1,14 +1,16 @@
-# 更新记录
+# Changelog
 
-## 未发布
+## 0.5.0 - 2026-08-31
 
-- 使用稳定的 Android API 36 构建环境，方便公开仓库和 CI 重现构建。
+- Renamed the app to UK Radio Companion.
+- Moved the reproducible build and CI environment to stable Android API 36.
+- Changed the project license from the MIT License to the Apache License 2.0.
 
 ## 0.4.0 - 2026-08-29
 
-- 应用更名为“电波随行”。
-- 增加与播放状态联动的动态均衡器。
-- 将当前节目、开始时间和预计结束时间移到首屏。
-- 将节目列表调整为“接下来”。
-- 支持七个 BBC 主要广播频道。
-- 增加播放时保持屏幕常亮设置。
+- Introduced the previous app name.
+- Added an animated equalizer linked to playback state.
+- Moved current programme details, start time, and expected end time to the home screen.
+- Reworked the schedule section to focus on upcoming programmes.
+- Added support for seven major BBC radio stations.
+- Added an option to keep the screen awake during playback.
